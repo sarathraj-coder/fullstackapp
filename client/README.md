@@ -32,3 +32,18 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### Add the deps in client for requesting http to backend
 npm install axios --save  
+
+Setting mongoDB as backend
+
+### install and start running monog DB
+
+$mongod --dbpath /data/db
+
+default location is localhost:27017 , Db created in fullstack
+package for mongo in server
+
+$npm install --save mongoose bluebird
+
+Eslint fix quick command 
+
+./node_modules/eslint/bin/eslint.js --fix . --ext s,.vue src
